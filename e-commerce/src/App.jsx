@@ -231,7 +231,7 @@ const increaseQty = (id) => {
                   <div className="cart ">
                      {cart.length === 0 && ( 
                         <div className='empty-cart d-flex flex-column align-items-center'> 
-                           <img src='../src/assets/emptycart.png'></img>
+                           <img src='/emptycart.png'></img>
                            <p>Cart is empty</p>  
 
                         </div>
@@ -273,7 +273,7 @@ const increaseQty = (id) => {
       {showConfirm && (
          <div className='overlay'>
             <div className='confirm-card'>
-               <img src="../src/assets/confirm.png" alt=""  className='h-25 w-25 mb-3'/>
+               <img src="/confirm.png" alt=""  className='h-25 w-25 mb-3'/>
                <h4> Your Order is Confirmed!</h4>
                <p>Thank you for your purchase</p>
                <button className='done mt-5 rounded-pill' onClick={()=>{setShowConfirm(false);}}>Done</button>
